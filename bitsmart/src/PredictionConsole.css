@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.prediction-console {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date-label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.date-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.predict-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.predict-button:hover {
+    background-color: #0056b3;
+}
+
+.prediction-results, .trade-strategy {
+    margin-top: 20px;
+}
+
+.selected-date {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.results-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
